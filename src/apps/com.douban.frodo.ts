@@ -5,30 +5,6 @@ export default defineGkdApp({
   name: '豆瓣',
   groups: [
     {
-      key: -1,
-      name: '开屏广告',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules: [
-        {
-          quickFind: true,
-          position: {
-            left: 'width * 0.8833',
-            top: 'width * 0.1388',
-          },
-          matches: '[id="com.douban.frodo:id/_ad_image_"]',
-          exampleUrls:
-            'https://m.gkd.li/57941037/1c36c96b-95b7-4299-8e88-b4fdc85d3518',
-          snapshotUrls: [
-            'https://i.gkd.li/i/13575257',
-            'https://i.gkd.li/i/13575547',
-            'https://i.gkd.li/i/13601755',
-          ],
-        },
-      ],
-    },
-    {
       key: 1,
       name: '功能类-不分享/同步作品短评',
       desc: '书影音-作品-状态-不分享/同步短评(5s后可手动)',
